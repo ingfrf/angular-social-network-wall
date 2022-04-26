@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {FormBuilder, Validators} from '@angular/forms';
+import {UserService} from '../../services/user.service';
 
 @Component({
   selector: 'app-create-account',
@@ -14,10 +15,18 @@ export class CreateAccountComponent implements OnInit {
     password: ['', [Validators.required, Validators.minLength(6)]]
   });
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private userService: UserService) {
   }
 
   ngOnInit(): void {
+  }
+
+  create() {
+    console.log(this.createAccountForm.value);
+    this.userService.createNewUser(this.createAccountForm.value).subscribe(
+      (response) => console.log(response),
+      (error) => console.error(error)
+    );
   }
 
 }

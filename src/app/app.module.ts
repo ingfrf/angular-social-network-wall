@@ -10,14 +10,16 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {LoginComponent} from './pages/login/login.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatCardModule} from '@angular/material/card';
 import {CreateAccountComponent} from './pages/create-account/create-account.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
-import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {PostsComponent} from './pages/posts/posts.component';
-import {MatIconModule} from '@angular/material/icon';
-import {MatMenuModule} from '@angular/material/menu';
+
 
 @NgModule({
   declarations: [
@@ -38,6 +40,7 @@ import {MatMenuModule} from '@angular/material/menu';
     MatSnackBarModule,
     MatIconModule,
     MatMenuModule,
+    MatCardModule,
     ReactiveFormsModule,
     FormsModule,
     HttpClientModule

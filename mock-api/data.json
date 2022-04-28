@@ -5,6 +5,12 @@
       "username": "manoleitor",
       "password": "Karakona69",
       "id": 1
+    },
+    {
+      "email": "fake@gmail.com",
+      "username": "tongpo",
+      "password": "123456",
+      "id": 2
     }
   ],
   "posts": []

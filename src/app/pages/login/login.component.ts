@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {FormBuilder, Validators} from '@angular/forms';
 import {UserService} from '../../services/user.service';
 import {MatSnackBar} from '@angular/material/snack-bar';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -15,7 +16,10 @@ export class LoginComponent implements OnInit {
     password: ['', [Validators.required, Validators.minLength(6)]]
   });
 
-  constructor(private fb: FormBuilder, private userService: UserService, private snackBar: MatSnackBar) {
+  constructor(private fb: FormBuilder,
+              private userService: UserService,
+              private snackBar: MatSnackBar,
+              private router: Router) {
   }
 
   ngOnInit(): void {
@@ -32,6 +36,8 @@ export class LoginComponent implements OnInit {
           if (response[0].password === this.loginForm.value.password) {
             console.log('matched');
             this.snackBar.open('Login successful', 'ok');
+            this.userService.user = response[0];
+            this.router.navigate(['/posts']);
           } else {
             console.error('incorrect password');
             this.snackBar.open('Incorrect password', 'ok');

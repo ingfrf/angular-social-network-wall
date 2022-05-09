@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "sbook-53058": {
+      "hosting": {
+        "social-network-wall": [
+          "sbook-53058"
+        ]
+      }
+    }
+  }
+}

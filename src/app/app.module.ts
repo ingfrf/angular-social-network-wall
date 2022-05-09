@@ -19,6 +19,10 @@ import {CreateAccountComponent} from './pages/create-account/create-account.comp
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {PostsComponent} from './pages/posts/posts.component';
+import {AngularFireModule} from '@angular/fire';
+import {environment} from '../environments/environment';
+import {MaterialFileInputModule} from 'ngx-material-file-input';
+import {AngularFireStorageModule} from '@angular/fire/storage';
 
 
 @NgModule({
@@ -43,7 +47,10 @@ import {PostsComponent} from './pages/posts/posts.component';
     MatCardModule,
     ReactiveFormsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MaterialFileInputModule,
+    AngularFireStorageModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]

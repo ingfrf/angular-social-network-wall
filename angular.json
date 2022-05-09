@@ -124,6 +124,10 @@
               "devServerTarget": "social-network-wall:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }

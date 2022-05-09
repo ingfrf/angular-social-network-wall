@@ -13,5 +13,80 @@
       "id": 2
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "username": "manoleitor",
+      "text": "",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-53058.appspot.com/o/images%2F1652121557666?alt=media&token=af930a56-6f3a-444a-bab8-900d698e414d",
+      "likes": [],
+      "comments": [],
+      "id": 1
+    },
+    {
+      "username": "manoleitor",
+      "text": "",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-53058.appspot.com/o/images%2F1652121948750?alt=media&token=1effe09a-d989-4889-b6d1-b4ec48889cde",
+      "likes": [
+        1
+      ],
+      "comments": [],
+      "id": 2
+    },
+    {
+      "username": "manoleitor",
+      "text": "",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-53058.appspot.com/o/images%2F1652122210594?alt=media&token=f068ec50-8da9-4a92-93d8-ef55c326f37e",
+      "likes": [],
+      "comments": [],
+      "id": 3
+    },
+    {
+      "username": "manoleitor",
+      "text": "",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-53058.appspot.com/o/images%2F1652122392793?alt=media&token=b48bb171-6066-4749-989f-c55ca256f7a3",
+      "likes": [],
+      "comments": [],
+      "id": 4
+    },
+    {
+      "username": "manoleitor",
+      "text": "",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-53058.appspot.com/o/images%2F1652122653458?alt=media&token=6a61d1b3-30e5-4e3a-aba4-c84841b6536d",
+      "likes": [],
+      "comments": [],
+      "id": 5
+    },
+    {
+      "username": "manoleitor",
+      "text": "sentado",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-53058.appspot.com/o/images%2F1652122749104?alt=media&token=ff60daf6-f125-41cc-97e7-a8d875742c39",
+      "likes": [],
+      "comments": [],
+      "id": 6
+    },
+    {
+      "username": "manoleitor",
+      "text": "hi hooo",
+      "imageURL": "",
+      "likes": [],
+      "comments": [],
+      "id": 8
+    },
+    {
+      "username": "manoleitor",
+      "text": "hi hooo",
+      "imageURL": "",
+      "likes": [],
+      "comments": [],
+      "id": 9
+    },
+    {
+      "username": "manoleitor",
+      "text": "Escarranchado",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-53058.appspot.com/o/images%2F1652133197066?alt=media&token=01b18386-e508-4876-85e6-eff1b6d38cc2",
+      "likes": [],
+      "comments": [],
+      "id": 10
+    }
+  ]
 }

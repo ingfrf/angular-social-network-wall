@@ -10,6 +10,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 * angular material design
 * json server
 * buena maquetación css
+* firebase storage
+* la lógica aplicada no es de las mejores
+* no tipa bien los elementos (abusa de `any`)
 
 ## Code scaffolding
 
